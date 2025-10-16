@@ -1,0 +1,74 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+__MACOSX/
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+build/
+dist/
+site/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.tox/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Logs
+*.log
+
+# Environment files (keep example)
+.env
+.env.*
+!.env.example
+
+# Data and generated artifacts (kept out of git)
+bio_features.csv
+advanced_features.csv
+train_features.csv
+test_features.csv
+outputs/
+results/
+reports/
+figures/
+checkpoints/
+models/
+tmp/
+temp/
+*.tmp
+
+# Model/binary artifacts
+*.joblib
+*.pkl
+*.h5
+*.onnx
+
+# Windows
+*.lnk
